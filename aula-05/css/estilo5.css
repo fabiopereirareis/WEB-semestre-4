@@ -1,0 +1,15 @@
+#p1{
+    color: #ff0000;
+}
+
+#p2{
+    color: #00f;
+}
+
+.borda{
+    border: 2px solid #000;
+}
+
+.sombra{
+    box-shadow: 0 0 10px #0f0;
+}

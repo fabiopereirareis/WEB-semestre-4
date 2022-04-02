@@ -1,0 +1,25 @@
+body{
+    background-color: #fc0505;
+    font-size: 18pt;
+    font-family: Verdana;
+    margin: 0;
+}
+
+article{
+    background-color: #eaee10;
+    width: 500px;
+    margin: 0 auto;
+    border: 2px dashed #000;
+    padding: 20px;
+    border-radius: 30px 0px 30px 0px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
