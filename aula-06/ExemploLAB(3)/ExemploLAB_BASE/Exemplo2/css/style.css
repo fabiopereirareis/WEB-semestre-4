@@ -1,0 +1,108 @@
+/* Cores:
+1 - Fundo da página: #0f596f e #68b2c8
+2 - Fundo do header: #934b07 e #854407
+3 - Fundo do menu:  #b42d04 e #962503 
+4 - Borda superior do menu: #F06940
+5 - Borda inferior do menu:#CF8743
+6 - Cor de links:  #C33C13
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(#0f596f , #68b2c8); /* gradiente */
+    background-attachment: fixed; /* fixar fundo */
+}
+
+a, a:visited{
+    color: #C33C13;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+}
+
+#wrapper{
+    width: 980px;
+    margin: 45px, auto, 0, auto;
+}
+
+p{
+    text-align: justify;
+}
+
+header{
+    background: -webkit-linear-gradient(left,#934b07 , #854407);
+    height: 170px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+#logo{
+    height: 160px;
+    line-height: 160px;
+    padding-left: 45px;
+}
+
+#logo a {
+    color: #fff;
+}
+
+#menu{
+    background: -webkit-linear-gradient(left,#b42d04 , #962503);
+    height: 60px;
+    border-top: #F06940;
+    border-bottom: #CF8743;
+    padding-left: 45px;
+    border-radius: 10px 10px 0 0 ;
+    box-sizing: border-box;
+    line-height: 60px; /* altura da linha, ajuda a centralizar o texto dentro da caixa */
+}
+
+#menu a{
+    color: #fff;
+    padding: 0 20px;
+}
+
+#page{
+    background-color: #fff;
+    padding: 45px;
+    border-radius: 0 0 10px 10px;
+}
+
+#content{
+    margin-left: 30px;
+    width: 625px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#page ul{
+    list-style: none;
+}
+
+aside{
+    width: 225px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+aside a, .post2 a{
+    display: block;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.post2{
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    margin: 15px;
+}
+
+

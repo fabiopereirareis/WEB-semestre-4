@@ -1,0 +1,46 @@
+.box{
+    width: 960px;
+    border: 1px dashed #000;
+    border-radius: 20px;
+    margin: 0 auto; /* alinha a caixa o primeiro valor '0' alinhamento vertical, segundo valor 'auto' horizontal */
+    margin-bottom: 10px; /* margem de baixo */
+    /*  margem separa um elemento do outro*/
+    padding: 10px;
+    box-sizing: border-box; /* fixa a largura e altura da caixa */
+}
+
+.image{
+    width: 300px;
+    margin: 0;
+    text-align: center;
+}
+
+.texto{
+    width: 600px;
+    border-left: 1px solid #000;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.image , .texto{
+    display: inline-block; /* organiza o conteudo em linha mantendo a largura e altura*/
+    vertical-align: middle;
+}
+
+a, a:visited{
+    color: rgb(8, 17, 138);
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #000;
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    background: linear-gradient(#000, rgb(49, 167, 13));
+    border-radius: 100px;
+    text-align: center;
+}
