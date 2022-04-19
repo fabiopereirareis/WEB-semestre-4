@@ -1,8 +1,46 @@
-.bloco figure{
-   
-    display: inline-block;
+body {
+    margin: 0;
+    padding: 0;
 }
-.bloco img{
+
+.container {
+    width: 680px;
+    margin: 0 auto;
+}
+
+.bloco {
+    margin: 0 10px;
+}
+
+.bloco figure {
+    display: inline-block;
+    margin: 5px;
+}
+
+.bloco img {
     width: 150px;
     height: 150px;
+}
+
+@keyframes sombras{
+    0%{
+        /* opacity: 1; */
+    }
+    25%{
+        box-shadow: 5px 5px 10px #000;
+        /* opacity: 0.5; */
+    } 
+    50%{
+        box-shadow: 10px 10px 10px #000;
+        /* opacity: 0.5; */
+    }
+    100%{
+        /* box-shadow: 10px 10px 10px #000; */
+        /* opacity: 1; */
+    }
+
+}
+
+figure img:hover{
+    animation: sombras 3.0s linear infinite;
 }
