@@ -1,0 +1,8 @@
+.bloco figure{
+   
+    display: inline-block;
+}
+.bloco img{
+    width: 150px;
+    height: 150px;
+}

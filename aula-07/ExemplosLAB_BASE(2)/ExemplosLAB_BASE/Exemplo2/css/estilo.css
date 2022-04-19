@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: beige;
+    height: 90px;
+    line-height: 90px;
+    padding-left: 30px;
+}
+
+#menu, aside{
+    width: 20%;
+}
+
+#menu{
+    background-color: blueviolet;
+}
+
+aside{
+    background-color: aqua;
+}
+
+#conteudo{
+    width: 60%;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+}
+
+#menu, #conteudo, aside{
+    float: left;
+}
+
+footer{
+    clear: both;
+}
