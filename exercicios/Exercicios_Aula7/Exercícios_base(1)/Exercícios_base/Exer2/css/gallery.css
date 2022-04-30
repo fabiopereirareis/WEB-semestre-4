@@ -80,7 +80,17 @@ ul.thumb li:nth-child(2) {
     transform: rotate(19deg);
     -webkit-filter: blur(4px);
 }
+
 ul.thumb li:nth-child(3) {
+    margin-top: 120px;
+    margin-left: -10px;
+    -moz-transform: rotate(19deg);
+    -webkit-transform: rotate(19deg);
+    transform: rotate(19deg);
+    -webkit-filter: blur(4px);
+}
+
+ul.thumb li:nth-child(4) {
     margin-top: -10px;
     margin-left: -180px;
     -moz-transform: rotate(-10deg);
@@ -88,7 +98,26 @@ ul.thumb li:nth-child(3) {
     transform: rotate(-10deg);
     -webkit-filter: blur(3px);
 }
-ul.thumb li:nth-child(4) {
+
+ul.thumb li:nth-child(5) {
+    margin-top: 20px;
+    margin-left: 100px;
+    -moz-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    -webkit-filter: blur(1px);
+}
+
+ul.thumb li:nth-child(6) {
+    margin-top: 100px;
+    margin-left: -150px;
+    -moz-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    -webkit-filter: blur(1px);
+}
+
+ul.thumb li:nth-child(7) {
     margin-top: -50px;
     margin-left: -80px;
     -moz-transform: rotate(12deg);
@@ -96,13 +125,32 @@ ul.thumb li:nth-child(4) {
     transform: rotate(12deg);
     -webkit-filter: blur(2px);
 }
-ul.thumb li:nth-child(5) {
-    margin-top: 20px;
-    margin-left: 30px;
-    -moz-transform: rotate(-20deg);
-    -webkit-transform: rotate(-20deg);
-    transform: rotate(-20deg);
-    -webkit-filter: blur(1px);
+
+ul.thumb li:nth-child(8) {
+    margin-top: -300px;
+    margin-left: -80px;
+    -moz-transform: rotate(12deg);
+    -webkit-transform: rotate(12deg);
+    transform: rotate(12deg);
+    -webkit-filter: blur(2px);
+}
+
+ul.thumb li:nth-child(9) {
+    margin-top: 150px;
+    margin-left: -380px;
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    -webkit-filter: blur(3px);
+}
+
+ul.thumb li:nth-child(10) {
+    margin-top: -150px;
+    margin-left: 100px;
+    -moz-transform: rotate(19deg);
+    -webkit-transform: rotate(19deg);
+    transform: rotate(19deg);
+    -webkit-filter: blur(4px);
 }
 
 /* here is how the LI element should look
