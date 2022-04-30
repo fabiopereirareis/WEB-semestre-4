@@ -6,6 +6,8 @@ body {
 .container {
     width: 680px;
     margin: 0 auto;
+    perspective: 600;
+    position: relative;
 }
 
 .bloco {
@@ -41,6 +43,40 @@ body {
 
 }
 
+@keyframes rotacao {
+    0%{
+        rotate: 30px;
+    }
+    50%{
+        rotate: 90px;
+    }
+    100%{
+        rotate: 180px;
+    }
+
+}
+
 figure img:hover{
     animation: sombras 3.0s linear infinite;
 }
+
+.card {
+    /* height: 100%; */
+    /* position: absolute; */
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    /* width: 100%; */
+  }
+
+  .card:active {
+    transform: rotateY(180deg);
+  }
+
+  .card .side {
+    backface-visibility: hidden;
+    border-radius: 6px;
+    /* height: 100%; */
+    /* position: absolute; */
+    overflow: hidden;
+    /* width: 100%; */
+  }
