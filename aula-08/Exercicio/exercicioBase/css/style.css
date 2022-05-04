@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* trava o tamanho da caixa */
+}
+
+body{
+    background-color: rgb(227, 236, 102);
+    font-size: 12px;
+    font-family: Arial;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(5, 83, 25);
+}
+
+#container{
+    width: 800px;
+    margin: 10px auto;
+    background-color: rgb(214, 247, 28);
+    box-shadow: 0 0 5px #fff;
+    padding: 20px;
+}
+
+#header{
+    height: 150px;
+    background-color: rgb(11, 59, 19);
+    color: #fff;
+    border-radius: 10px 10px 0 0 ;
+}
+
+#header h1{
+    padding: 40px 0 0 30px;
+    font-weight: 100;
+}
+
+#header h2{
+    padding-left: 30px;
+    font-weight: 100;
+}
+
+#menu{
+    background-color: rgb(214, 247, 28);
+    height: 40px;
+    line-height: 40px; /* altura da linha para centralizar o texto */
+
+    /* se fosse display=inline-block deve vertical-align=top */
+    /* exemplo
+    display: inline-block;
+    vertical-align: top; */
+
+    padding-left: 30px;
+}
+
+#menu a{
+    padding: 0 10px;
+}
+
+#wrapper{
+    background-color: rgb(224, 88, 9);
+    border-radius: 0 0 10px 10px;
+}
+
+#content{
+    width: 500px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 0 0 0 10px;
+    border-right: 1px solid rgb(143, 43, 4);
+    /*float: left; /* se usar esse lembrar de usar o clear */
+    line-height: 22px; /* altura da linha */
+    /* display: inline-block; /* usando outro jeito  inline-block*/
+    display: inline-block;
+}
+
+#content img{
+    width: 100%;
+}
+
+#content ul{
+    padding-left: 30px;
+}
+
+#aside{
+    /*float: left; */
+    width: 190px;
+    padding: 15px 5px 0 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#aside a{
+    display: block;
+    padding: 5px 10px;
+}
+
+.clear{
+    clear: both;
+}

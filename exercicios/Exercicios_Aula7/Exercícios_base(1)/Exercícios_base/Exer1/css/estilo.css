@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    width: 680px;
+    width: 673px;
     margin: 0 auto;
     perspective: 600;
     position: relative;
@@ -23,6 +23,7 @@ body {
     width: 150px;
     height: 150px;
 }
+/* para o clique usar o active */
 
 @keyframes sombras{
     0%{
