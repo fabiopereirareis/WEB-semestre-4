@@ -1,0 +1,30 @@
+#a{
+    background-color: #f00;
+}
+#b{
+    background-color: #0f0;
+}
+#c{
+    background-color: #00f;
+}
+
+#a, #b, #c {
+    height: 100px;
+    /* width: 100px; */
+}
+
+#linha{
+    background-color: #ff0;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#a, #c {
+    flex-grow: 1; /* pega o flex e divide em partes iguais, nesse caso deu uma parte para a e para c */
+}
+
+#b{
+    flex-grow: 2;
+}

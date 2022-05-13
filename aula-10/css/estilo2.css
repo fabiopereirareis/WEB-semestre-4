@@ -1,0 +1,16 @@
+#a{
+    background-color: #f00;
+}
+#b{
+    background-color: #0f0;
+}
+#c{
+    background-color: #00f;
+}
+
+#linha{
+    background-color: #ff0;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* é dividido por orfem no html */
+}
