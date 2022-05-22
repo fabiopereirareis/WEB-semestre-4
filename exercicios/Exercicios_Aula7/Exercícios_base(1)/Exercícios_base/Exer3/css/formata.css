@@ -4,9 +4,24 @@
 }
 
 .container{
-    width: 960px;
+    width: 620px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    /* flex-wrap: wrap; */
+    /* align-items:baseline; */
+    /* float: left; */
 }
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
 
 figure img{
     width: 75px;
@@ -22,17 +37,54 @@ h4{
 }
 
 .box{
-    width: 400px;
+    width: 450px;
     border: 1px solid #000;
     padding: 10px;
     margin-bottom: 20px;
-    display: block;
+    border-radius: 15px;
+    /* height: 350px; */
+    
+}
+
+#claro{
+    border: 1px solid rgb(247, 18, 18);
+    box-shadow: 5px 10px 8px rgb(247, 18, 18);
+}
+
+#oi{
+    border: 1px solid rgb(247, 232, 18);
+    box-shadow: 5px 10px 8px rgb(247, 232, 18);
 }
 
 .aside{
     border: 1px solid #000;
-    width: 300px;
-    /* height: 80%; */
-    float: left;
+    width: 200px;
+    padding-bottom: 20px;
+    /* height: 700px; */
+    border-radius: 0px 15px 15px 0px;
+    padding-top: 300px;
 
+}
+
+.form{
+    border: 1px solid #000;
+    height: 90px;
+    width: 610px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 0px 15px 15px 15px;
+}
+
+footer{
+    /* clear: left; */
+    width: 612px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #000;
+    color: azure;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
