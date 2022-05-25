@@ -1,0 +1,64 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* cabeçalho */
+header{
+    background-image: url("/img/home.png");
+    background-color: rgba(0, 0, 0, 0.767);
+    background-blend-mode: color;
+    background-size: cover;
+    height: 150vh;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 1fr;
+    
+}
+
+#navegacao{
+    background-color: rgba(0, 0, 0, 0.541);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+#navegacao h2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+}
+
+#navegacao nav{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    align-self: center;
+}
+
+#navegacao nav a{
+    text-decoration: none;
+    color: #fff;
+    padding-right: 10px;
+    font-size: small;
+}
+
+#inicio{
+    /* background-color: blueviolet; */
+    align-self: center;
+    justify-self: center;
+}
+
+#inicio h1, h3{
+    color: #fff;
+    text-align: center;
+}
+
+#inicio h1{
+    color: #fff;
+    text-align: center;
+    font-size: xx-large;
+}
+
+/* cabeçalho */
+
